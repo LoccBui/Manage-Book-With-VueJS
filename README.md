@@ -64,3 +64,9 @@ user role sign in: user1, password: 1
 - User not have add, change, delete function like admin
 ![Screenshot 2023-03-04 160426](https://user-images.githubusercontent.com/71368794/222906900-d0fdf18b-c81a-4d99-8010-cc22cf3834ff.png)
 
+- Watch video
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=UHHVHgPEHeg&t=7s)
+
+
+
