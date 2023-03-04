@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> <!--Add axios-->
+
+    <div id="app">
+
+        <header>
+
+            <div>
+                <v-toolbar dark
+                           prominent
+                           src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+                    <v-app-bar-nav-icon></v-app-bar-nav-icon>
+
+                    <v-toolbar-title>Quản lý sách</v-toolbar-title>
+                    SSS
+                    <v-spacer></v-spacer>
+
+                    <v-btn icon>
+                        <v-icon @click="signOut">mdi-export</v-icon>
+                    </v-btn>
+                </v-toolbar>
+            </div>
+
+
+        </header>
+
+        <!--Search bar-->
+        <v-text-field v-model="search"
+                      append-icon="mdi-magnify"
+                      label="Search"
+                      single-line
+                      hide-details>
+
+        </v-text-field>
+
+
+        <br />
+        <br />
+
+        <!--Data table-->
+        <v-data-table headers="headers"
+                      items="sach"
+                      loading="loaders"
+                      class="elevation-1">
+
+
+            <template v-slot:[`item.edit`]="{ item }">
+                <v-icon small class="mr-2" @click="overlay = !overlay">mdi-pencil</v-icon>
+            </template>
+            <template v-slot:[`item.delete`]="{ item }">
+                <v-icon small @click="deleteItem(item.MaNV)">mdi-delete</v-icon>
+            </template>
+
+
+
+        </v-data-table>
+
+        <v-btn color="accent"
+               elevation="2"
+               value="newNV" @click="overlay = !overlay" style="color: white; background-color: #4D77FF;">Add</v-btn>
+
+        <v-snackbar color="success" value="ok_snackbar" top> Xóa thành công </v-snackbar>
+
+        <v-overlay absolute="absolute"
+                   opacity="opacity"
+                   value="overlay">
+
+
+
+
+            <!--Form nhập-->
+            <v-form style="background-color:red">
+                <v-card-text>
+                    <v-text-field v-model="ho"
+                                  label="Họ" prepend-icon="mdi-account-circle" required>
+                    </v-text-field>
+
+                    <v-text-field v-model="ten"
+                                  label="Tên" prepend-icon="mdi-account-circle" required>
+                    </v-text-field>
+
+                    <v-text-field v-model="phai"
+                                  label="Phái" prepend-icon="mdi-account-circle" required>
+                    </v-text-field>
+
+                    <v-text-field v-model="diachi"
+                                  label="Địa chỉ" prepend-icon="mdi-account-circle" required>
+                    </v-text-field>
+
+                    <v-text-field v-model="dienthoai"
+                                  label="Điện thoại" prepend-icon="mdi-account-circle" required>
+                    </v-text-field>
+
+                </v-card-text>
+
+                <v-divider></v-divider>
+
+                <v-card-actions class="justify-center">
+                    <v-btn block color="info" v-on:click="addNV" style="color: white; background-color: #4D77FF;">ADD</v-btn>
+                </v-card-actions>
+
+            </v-form>
+
+            <v-btn color="orange lighten-2"
+                   @click="overlay = false"
+                   block style="color: white; background-color: #4D77FF; ">
+                Hide
+            </v-btn>
+
+        </v-overlay>
+
+
+        <!--<footer style=" position: fixed ; bottom:0; width: 100vw" >
+            <v-bottom-navigation :value="value"
+                                 color="primary"
+                                 horizontal
+                                 block
+                                 style="background-color: #4D77FF; fill: white">
+                <v-btn>
+                    <span style="color: white">Recents</span>
+
+                    <v-icon style="color: white" >mdi-history</v-icon>
+                </v-btn>
+
+                <v-btn>
+                    <span style="color: white" >Favorites</span>
+
+                    <v-icon style="color: white" >mdi-heart</v-icon>
+                </v-btn>
+
+                <v-btn>
+                    <span style="color: white" >Nearby</span>
+
+                    <v-icon style="color: white" >mdi-map-marker</v-icon>
+                </v-btn>
+            </v-bottom-navigation>
+        </footer>-->
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!--Add Vuetify-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+    <style>
+        #card {
+            display: none;
+        }
+    </style>
+
+
+    <script>
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+            data () {
+            return {
+            headers: [
+                { text: "MaSach", align: 'center', value: 'MaSach' },
+                { text: "TenSach", align: 'center',value: 'TenSach' },
+                { text: "MoTa", align: 'center',value: 'MoTa' },
+                { text: "NgayCapNhat", align: 'center',value: 'NgayCapNhat' },
+                { text: "MaNXB", align: 'center', value: 'MaNXB' },
+                { text: "Edit", value: "edit", sortable: false },
+                { text: "Delete", value: "delete", sortable: false },
+
+            ],
+        sach: [],
+        loaders: false,
+        ok_snackbar: false,
+        overlay: false,
+        newNV: true,
+        ho: '',
+        ten: '',
+        phai: '',
+        diachi: '',
+        dienthoai: '',
+
+        }
+        },
+        mounted() {
+            this.fetch_data();
+            //let user = window.localStorage.getItem("user-info");
+            //if (!user) {
+            //    window.location.href = "Login.html";
+            //}
+            //else {
+            //    this.fetch_data();
+            //}
+        },
+
+
+
+        methods:{
+            fetch_data() {
+                this.loaders = true;
+                axios.get('/SelectAllSach').then((response) => {
+                    this.sach = response.data;
+                console.log(this.sach);
+            })
+            .catch(error => console.log(error));
+
+
+        },
+
+             addNV()
+        {
+            if (this.ho != '' && this.ten != '' && this.phai != '' && this.diachi != '' && this.dienthoai != '') {
+                let result = axios.post('http://localhost:55728/nhanvien', {
+                    "HoNV": this.ho,
+                    "TenNV": this.ten,
+                    "Phai": this.phai,
+                    "DiaChi": this.diachi,
+                    "DienThoai": this.dienthoai
+                })
+
+                if (result.status == 200) {
+
+                    alert('Thêm thành công')
+                    //this.ok_snackbar = true
+                    //setTimeout(() => {
+                    //    this.ok_snackbar = false
+                    //}, 2000)
+
+                    this.fetch_data();
+                }
+                else {
+                    alert('Thêm không thành công')
+                }
+            }
+            else {
+                alert("Chưa thỏa điều kiện nhập")
+            }
+
+        },
+
+            signOut() {
+                alert("Hẹn gặp lại")
+                window.localStorage.clear()
+                window.location.href = "Login.html";
+            },
+
+
+             async deleteItem(id)
+        {
+            let result = await axios.delete('http://localhost:55728/nhanvien/' + id)
+            if (result.status == 200) {
+                this.ok_snackbar = true
+                setTimeout(() => {
+                    this.ok_snackbar = false
+                }, 2000)
+
+                this.fetch_data();
+            }
+            else {
+
+            }
+        },
+
+
+        }
+        })
+    </script>
+
+</body>
+</html>

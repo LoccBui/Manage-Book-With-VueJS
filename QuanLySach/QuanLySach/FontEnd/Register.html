@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+    <div id="app">
+        <v-app>
+            <v-main>
+                <v-card width="500" class="mx-auto mt-9" ref="form">
+                    <v-card-title>Register</v-card-title>
+
+                    <v-form ref="form" v-model="vaild">
+                        <v-card-text>
+                            <v-text-field v-model="username" :rules="usernameRules"
+                                          label="Username" prepend-icon="mdi-account-circle" required>
+                            </v-text-field>
+
+                            <v-text-field v-model="password" :rules="passwordRules"
+                                          label="Password"
+                                          :type="showPassword ? 'text' : 'password' " prepend-icon="mdi-lock"
+                                          :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off' "
+                                          @click:append="showPassword = !showPassword" required>
+                            </v-text-field>
+                        </v-card-text>
+
+                        <v-divider></v-divider>
+
+                        <v-card-actions class="justify-center">
+                            <v-btn block :disabled="!valid" color="info" v-on:click="register">Register </v-btn>
+                        </v-card-actions>
+
+                    </v-form>
+
+                    <v-alert type="success" :value="alert" :timeout="2000"> Registration successfully   </v-alert>
+                    <v-alert type="success" :value="badalert" :timeout="2000"> Registration failed   </v-alert>
+
+
+                </v-card>
+            </v-main>
+
+
+        </v-app>
+
+
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> <!--Add axios-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+    <script>
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+            data: () => ({
+                badalert: false,
+                alert: false,
+                showPassword: false,
+                valid: true,
+                password: '',
+                passwordRules: [
+                    v => !!v || 'You need to input password',
+                    v => (v && v.length > 0) || 'Password must have character',
+                ],
+                username: '',
+                usernameRules: [
+                    v => !!v || 'You need to input username',
+                    v => (v && v.length > 0) || 'Username must have character',
+                ],
+            }),
+                
+            methods: {
+                async register() {
+
+                    if (this.username == '' || this.password == '') {
+                        alert("Chưa thỏa điều kiện nhập")
+                    }
+                    else {
+                        let result = await axios.post('http://localhost:55728/user', {
+                            username: this.username,
+                            password: this.password
+                        })
+
+                        if (result.status == 200) {
+                            this.alert = true
+                            setTimeout(() => {
+                                this.alert = false
+                                window.location.href = "Login.html";
+                            }, 2000)
+                        }
+                        else {
+                            this.badalert = true
+                            setTimeout(() => {
+                                this.badalert = false
+                            }, 2000)
+                        }
+                        console.warn(result)
+                    }
+                    
+                },
+            
+
+            },
+            mounted() {
+                let user = localStorage.getItem("user-info");
+                if (user) {
+                    window.location.href = "Home.html";
+                    this.$router.push({ name: 'Home.html' })
+                }
+            }
+
+        })
+    </script>
+
+</body>
+</html>

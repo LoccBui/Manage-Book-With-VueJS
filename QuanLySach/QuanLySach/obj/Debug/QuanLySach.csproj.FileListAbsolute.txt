@@ -1,0 +1,130 @@
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\QuanLySach.dll.config
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\QuanLySach.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\QuanLySach.pdb
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\WebGrease.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.pdb
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\QuanLySach.dll.config
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\QuanLySach.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\QuanLySach.pdb
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\Antlr3.Runtime.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\Newtonsoft.Json.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Helpers.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Mvc.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Optimization.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Razor.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\WebGrease.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\Newtonsoft.Json.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Helpers.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Mvc.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Optimization.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.Razor.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.xml
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\bin\Antlr3.Runtime.pdb
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.csproj.AssemblyReference.cache
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.csproj.CoreCompileInputs.cache
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.csproj.CopyComplete
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.dll
+C:\Users\Phuc Nguyen Vu\Desktop\web\QuanLySach\QuanLySach\QuanLySach\obj\Debug\QuanLySach.pdb
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\QuanLySach.dll.config
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\QuanLySach.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\QuanLySach.pdb
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Http.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\WebGrease.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Http.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\QuanLySach\QuanLySach\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\QuanLySach\QuanLySach\obj\Debug\QuanLySach.dll
+C:\Users\User\Desktop\QuanLySach\QuanLySach\obj\Debug\QuanLySach.pdb
+C:\Users\User\Desktop\QuanLySach\QuanLySach\obj\Debug\QuanLySach.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\QuanLySach.dll.config
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\QuanLySach.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\QuanLySach.pdb
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Http.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\WebGrease.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Http.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\obj\Debug\QuanLySach.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\obj\Debug\QuanLySach.dll
+C:\Users\User\Desktop\TKW\40% Cuối kì\QuanLySach\QuanLySach\obj\Debug\QuanLySach.pdb
